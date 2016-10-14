@@ -14,6 +14,171 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="id.sch.smktelkom_mlg.tugas01.xiirpl2035.hondacommunityid.MainActivity">
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="HONDA COMMUNITY ID" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/email"
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-Mail Anda" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap Anda" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat Anda" />
+
+        <EditText
+            android:id="@+id/kotakabupaten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provinsi, Kota/Kabupaten" />
+
+        <EditText
+            android:id="@+id/SIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor SIM" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agama" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/agama" />
+
+        <EditText
+            android:id="@+id/telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telepon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobby" />
+
+        <CheckBox
+            android:id="@+id/checkBoxModif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Modif Motor" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Touring" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSepak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Sepakbola" />
+
+        <CheckBox
+            android:id="@+id/checkBoxVoll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Volly" />
+
+        <CheckBox
+            android:id="@+id/checkBoxLain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Lainnya" />
+
+        <EditText
+            android:id="@+id/lahir"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:hint="Tempat, Tanggal/Bulan/Tahun" />
+
+        <TextView
+            android:id="@+id/kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupJK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonLK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Laki-Laki" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/tipemotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipe Motor" />
+
+        <EditText
+            android:id="@+id/rangka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Rangka" />
+
+        <EditText
+            android:id="@+id/kotaklub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kota Klub" />
+
+        <EditText
+            android:id="@+id/klub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Klub" />
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="DAFTAR HONDA COMMUNITY" />
 
     </LinearLayout>
 </ScrollView>
