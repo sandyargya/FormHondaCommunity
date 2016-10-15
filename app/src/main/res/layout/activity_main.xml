@@ -32,13 +32,15 @@
             android:id="@+id/email"
         android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="E-Mail Anda" />
+            android:hint="E-Mail Anda"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nama Lengkap Anda" />
+            android:hint="Nama Lengkap Anda"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/alamat"
@@ -56,7 +58,8 @@
             android:id="@+id/SIM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nomor SIM" />
+            android:hint="Nomor SIM"
+            android:inputType="numberSigned" />
 
         <TextView
             android:id="@+id/textView3"
@@ -74,7 +77,8 @@
             android:id="@+id/telepon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nomor Telepon" />
+            android:hint="Nomor Telepon"
+            android:inputType="numberSigned" />
 
         <TextView
             android:id="@+id/textView"
@@ -179,6 +183,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="DAFTAR HONDA COMMUNITY" />
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 </ScrollView>
